@@ -1,0 +1,174 @@
+body {
+    font-family: 'Montserrat, sans-serif';
+}
+
+
+
+#title {
+    background-color: #8FBC8F;
+    color: #fff;
+
+
+}
+
+h1 {
+    font-family: 'Montserrat, sans-serif';
+    font-size: 3.5rem;
+    line-height: 2.5;
+    font-weight: 900;
+    padding: 10% 20%;
+
+
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+
+}
+
+p {
+    color: #8FBC8F;
+}
+
+.button1 {
+    margin-left: 19%;
+
+
+
+
+}
+
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+.profile-img {
+    transform: rotate(25deg);
+}
+
+
+
+/* #features */
+
+
+#features {
+    padding: 7% 15%;
+
+
+}
+
+
+.feature-box {
+
+    padding: 5%;
+    text-align: center;
+
+}
+
+.icon {
+    color: #8FBC8F;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: black;
+}
+
+
+/* #testimonials */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #8FBC8F;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 50%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.testimonial-image-p {
+    width: 30%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+/* #press */
+
+#press {
+    background-color: #8FBC8F;
+    padding-bottom: 3%;
+    text-align: center;
+
+
+}
+
+.press-img {
+    width: 10%;
+    margin: 20px 20px 50px;
+
+}
+
+#cta {
+    background-color: #8FBC8F;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+
+}
+
+.cta-heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.pricing-heading {
+   padding-top: 3%;
+    text-align: center;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.pricing-box {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 991px) {
+#title {
+    text-align: center;
+}
+
+.profile-img {
+    position: static;
+    transform: rotate(0);
+}
+}
